@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 92vh;
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+
+.child{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    padding: 2px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    background-color: rgb(26, 13, 171);
+}
+
+#btncontainer{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+#googlelogo{
+    margin-bottom: 1.5rem;
+}
+#searchbar{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding: 12px;
+    width: 582px;
+    border: solid #dfe1e5 1px;
+    border-radius: 50px;
+    
+}
+
+#searchbar:hover{
+    box-shadow: 0 0 6px rgba(40, 40, 40, 0.2);
+}
+
+#searchbar:focus{
+    outline: none;
+}
+
+.buscar-btn{
+    background-color: rgb(242, 242, 242);
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem;
+    margin: 0.1rem;
+    border-radius: 4px;
+    color: rgb(95, 99, 104);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+.buscar-btn:hover{
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0 0 2px rgb(95, 99, 104);
+}
+
+#offered{
+    margin-top: 0;
+}
+
+.buscar-btn:focus{
+    outline: none;
+    box-shadow: 0 0 2px rgb(49, 52, 202);
+    
+}
+
+
+
+@media(max-width: 624px){
+    #searchbar{
+        width: 92%;
+    }
+}
